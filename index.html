@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+    <script src="static/jquery.min.js"></script>
+    <script src="static/popper.min.js"></script>
+    <script src="static/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/main.css">
+    <title>temprature conersion</title>
+</head>
+<body>
+    
+
+<div class="container-fluid">
+    <form>
+        <h1>temprature conversion</h1>
+        <input type="number" id="textbox" value="0"><br>
+
+        <input type="radio" id="feranheit" name="unit">
+        <label for="feranheit">celsius ➡ feranheit</label><br>
+        <input type="radio" id="celsius" name="unit">
+        <label for="celsius"> feranheit ➡ celsius </label><br><br>
+
+        <button  type="button" class="btn btn-dark" onclick="convert()">submit</button><br><br>
+        <p id="result"></p>
+    </form>
+</div>
+
+    <script src="static/index.js"></script>
+</body>
+</html>
